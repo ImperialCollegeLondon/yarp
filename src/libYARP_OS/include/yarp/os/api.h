@@ -11,6 +11,7 @@
 #define YARP_OS_API_H
 
 #include <yarp/conf/api.h>
+#include <stddef.h>
 #ifndef YARP_OS_API
 #    ifdef YARP_OS_EXPORTS
 #        define YARP_OS_API YARP_EXPORT

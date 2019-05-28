@@ -40,7 +40,7 @@ namespace yarp {
 class YARP_OS_impl_API yarp::os::impl::NameServerStub
 {
 public:
-    virtual ~NameServerStub() = default;
+    virtual ~NameServerStub() {}
     virtual std::string apply(const std::string& txt, const Contact& remote) = 0;
 };
 
@@ -57,7 +57,7 @@ public:
         setup();
     }
 
-    virtual ~NameServer() = default;
+    virtual ~NameServer() {}
 
     // address may be partial - partial information gets filled in
     // (not YARP2 compliant yet, won't do fill-in)
